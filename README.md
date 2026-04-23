@@ -70,7 +70,7 @@ Produtos segmentados por perfis de uso:
 - **Negrito Estratégico:** Destaca apenas os nomes das ferramentas e conceitos fundamentais, sem poluir a visão.
 
 
-## Glossário com os Principais Conceitos Aprendidos
+## 📖 Glossário com os Principais Conceitos Aprendidos
 - **Ciclo Agêntico (Agentic Loop):** O ciclo de execução autônomo subjacente ao Claude Code, composto por três etapas interativas: reunir contexto varrendo arquivos, tomar ações diretas como modificar códigos e verificar resultados lendo saídas de erro para se corrigir iterativamente.
 
 - **CLAUDE.md:** Um arquivo persistente escrito em formato Markdown salvo na raiz do projeto que atua como o manual mestre para a IA. Ele ensina o sistema sobre regras da equipe, estilos de formatação e limitações para que não seja preciso lembrá-lo a cada sessão.
