@@ -30,12 +30,12 @@ Lição: Isso demonstrou a importância de fornecer documentos específicos de n
 
 
 ## 📝 Resumo Estruturado: O Ecossistema de IA Agêntica do Claude (2026)
-- A Transição para a Inteligência Artificial Agêntica
+1. **A Transição para a Inteligência Artificial Agêntica**
 O cenário atual da Anthropic marca uma mudança estrutural: a evolução de simples chatbots para forças de trabalho autônomas.
 
 Capacidades principais: Orquestração de fluxos em múltiplas etapas, uso ativo de programas de computador, tomada de decisão contextual e autoverificação de resultados.
 
-- O Motor de Raciocínio: Família de Modelos Claude 4
+2. **O Motor de Raciocínio: Família de Modelos Claude 4**
 A arquitetura é dividida em três níveis para equilibrar inteligência, custo e velocidade:
 
 Claude Opus 4.7: O modelo de ponta para raciocínio lógico complexo, modelagem financeira e programação de sistemas de alto nível.
@@ -44,7 +44,7 @@ Claude Sonnet 4.6: O padrão corporativo mais equilibrado, ideal para grandes vo
 
 Claude Haiku 4.5: Otimizado para velocidade máxima, extração de dados em tempo real e baixo custo.
 
-- Ferramentas Práticas de Automação
+3. **Ferramentas Práticas de Automação**
 Produtos segmentados por perfis de uso:
 
 Claude Code (Para Engenheiros): Opera via terminal (CLI) e IDEs. Consegue navegar por diretórios e editar múltiplos arquivos simultaneamente, executando testes de forma autônoma.
@@ -53,7 +53,7 @@ Claude Cowork (Conhecimento): Aplicativo desktop seguro (sandbox) para profissio
 
 Claude Design (Fluxos Criativos): Cria protótipos e landing pages conectando-se diretamente ao Design System da marca, com exportação nativa para ferramentas como o Canva.
 
-- Infraestrutura de Conectividade
+4. **Infraestrutura de Conectividade**
 Model Context Protocol (MCP): A base técnica que permite ao Claude deixar de ser isolado.
 
 Integração: Conecta a IA em tempo real a plataformas como GitHub, Jira, Slack, Google Drive e Figma, garantindo um fluxo de trabalho totalmente integrado.
@@ -67,34 +67,39 @@ Negrito Estratégico: Destaca apenas os nomes das ferramentas e conceitos fundam
 
 
 ## Glossário com os Principais Conceitos Aprendidos
-- Ciclo Agêntico (Agentic Loop): O ciclo de execução autônomo subjacente ao Claude Code, composto por três etapas interativas: reunir contexto varrendo arquivos, tomar ações diretas como modificar códigos e verificar resultados lendo saídas de erro para se corrigir iterativamente.
+- **Ciclo Agêntico (Agentic Loop):** O ciclo de execução autônomo subjacente ao Claude Code, composto por três etapas interativas: reunir contexto varrendo arquivos, tomar ações diretas como modificar códigos e verificar resultados lendo saídas de erro para se corrigir iterativamente.
 
 - CLAUDE.md: Um arquivo persistente escrito em formato Markdown salvo na raiz do projeto que atua como o manual mestre para a IA. Ele ensina o sistema sobre regras da equipe, estilos de formatação e limitações para que não seja preciso lembrá-lo a cada sessão.
 
-- Claude Code: Um assistente de IA baseado em terminal e sem interface gráfica que opera com permissões de desenvolvedor para orquestrar rotinas de engenharia de software complexas.
+- **Claude Code:** Um assistente de IA baseado em terminal e sem interface gráfica que opera com permissões de desenvolvedor para orquestrar rotinas de engenharia de software complexas.
 
-- Claude Cowork: Um assistente de IA operado via aplicativo de desktop desenhado para transformar tarefas lentas, repetitivas ou não técnicas em ações automatizadas de manipulação de pastas e planilhas.
+- **Claude Cowork:** Um assistente de IA operado via aplicativo de desktop desenhado para transformar tarefas lentas, repetitivas ou não técnicas em ações automatizadas de manipulação de pastas e planilhas.
 
-- Claude Design: Plataforma de prototipagem baseada na web que consegue compreender repositórios de código para construir rascunhos visuais já estruturados de acordo com o padrão corporativo da organização.
+- **Claude Design:** Plataforma de prototipagem baseada na web que consegue compreender repositórios de código para construir rascunhos visuais já estruturados de acordo com o padrão corporativo da organização.
 
-- Injeção de Prompt Indireta (Indirect Prompt Injection): Uma vulnerabilidade crítica na segurança da IA agêntica, onde um invasor esconde instruções textuais dentro de documentos comuns, induzindo a inteligência artificial a adotar comportamentos maliciosos (como expor chaves de segurança) quando processa aquele arquivo.
+- **Injeção de Prompt Indireta (Indirect Prompt Injection):** Uma vulnerabilidade crítica na segurança da IA agêntica, onde um invasor esconde instruções textuais dentro de documentos comuns, induzindo a inteligência artificial a adotar comportamentos maliciosos (como expor chaves de segurança) quando processa aquele arquivo.
 
-- Live Artifacts (Artefatos Ao Vivo): Interfaces construídas pela IA em bate-papos que não são imagens nem apenas texto estático, e sim mini-aplicativos com estado persistente, capacidade interativa e atualização de dados contínua em tempo real.
+- **Live Artifacts (Artefatos Ao Vivo):** Interfaces construídas pela IA em bate-papos que não são imagens nem apenas texto estático, e sim mini-aplicativos com estado persistente, capacidade interativa e atualização de dados contínua em tempo real.
 
-- Model Context Protocol (MCP): O padrão universal de código aberto que faz uma ponte entre modelos generativos de linguagem e recursos ou bancos de dados externos isolados.
+- **Model Context Protocol (MCP):** O padrão universal de código aberto que faz uma ponte entre modelos generativos de linguagem e recursos ou bancos de dados externos isolados.
 
-- Inteligência Artificial Constitucional (Constitutional AI): Uma abordagem proprietária de treinamento para alinhamento onde o modelo julga as suas próprias respostas não através de programadores humanos, mas sendo regido por uma longa "Constituição" orientadora baseada nos Direitos Humanos.
+- **Inteligência Artificial Constitucional (Constitutional AI):** Uma abordagem proprietária de treinamento para alinhamento onde o modelo julga as suas próprias respostas não através de programadores humanos, mas sendo regido por uma longa "Constituição" orientadora baseada nos Direitos Humanos.
 
-- Arquitetura Multiagente / Subagentes: Uma técnica organizacional na qual uma tarefa muito complexa para ser gerida por apenas um processo da inteligência artificial é paralisada e dividida entre vários "subagentes" operando ao mesmo tempo, antes que um líder consolide todo o processamento em segundos
+- **Arquitetura Multiagente / Subagentes:** Uma técnica organizacional na qual uma tarefa muito complexa para ser gerida por apenas um processo da inteligência artificial é paralisada e dividida entre vários "subagentes" operando ao mesmo tempo, antes que um líder consolide todo o processamento em segundos
 
 
 ## ⚡ Prompts Reutilizáveis para Revisão
 Aqui estão os comandos que preparei para serem usados em futuras sessões de estudo ou atualizações deste caderno temático:
 
-- Para Resumo Executivo: "Atue como um tutor técnico. Com base nestas fontes, resuma as 3 atualizações mais importantes do Claude nos últimos meses e como elas impactam um fluxo de trabalho de design."
+- **Para Resumo Executivo:** "Atue como um tutor técnico. Com base nestas fontes, resuma as 3 atualizações mais importantes do Claude nos últimos meses e como elas impactam um fluxo de trabalho de design."
 
-- Para Teste de Conhecimento: "Gere 5 perguntas de múltipla escolha sobre as diferenças técnicas entre o Claude Projects e o Claude Code para testar meu nível de compreensão."
+- **Para Teste de Conhecimento:** "Gere 5 perguntas de múltipla escolha sobre as diferenças técnicas entre o Claude Projects e o Claude Code para testar meu nível de compreensão."
 
-- Para Aplicação Prática: "Crie um passo a passo de como integrar as capacidades de visão do Claude 3.5 Sonnet na análise de acessibilidade de um protótipo de UX/UI."
+- **Para Aplicação Prática:** "Crie um passo a passo de como integrar as capacidades de visão do Claude 3.5 Sonnet na análise de acessibilidade de um protótipo de UX/UI."
 
-- Para Atualização de Contexto: "Analise estas novas fontes que acabei de subir e me diga: o que mudou ou foi descontinuado em relação ao que estudamos anteriormente sobre o ecossistema Anthropic?"
+- **Para Atualização de Contexto:** "Analise estas novas fontes que acabei de subir e me diga: o que mudou ou foi descontinuado em relação ao que estudamos anteriormente sobre o ecossistema Anthropic?"
+
+
+
+##
+*Projeto desenvolvido durante o desafio de Aprendizagem Ativa da DIO, utilizando o NotebookLM para curadoria e organização de conhecimento.*
