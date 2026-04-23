@@ -33,47 +33,46 @@ Lição: Isso demonstrou a importância de fornecer documentos específicos de n
 1. **A Transição para a Inteligência Artificial Agêntica**
 
 O cenário atual da Anthropic marca uma mudança estrutural: a evolução de simples chatbots para forças de trabalho autônomas.
-
 Capacidades principais: Orquestração de fluxos em múltiplas etapas, uso ativo de programas de computador, tomada de decisão contextual e autoverificação de resultados.
 
 2. **O Motor de Raciocínio: Família de Modelos Claude 4**
 
 A arquitetura é dividida em três níveis para equilibrar inteligência, custo e velocidade:
 
-Claude Opus 4.7: O modelo de ponta para raciocínio lógico complexo, modelagem financeira e programação de sistemas de alto nível.
+- **Claude Opus 4.7:** O modelo de ponta para raciocínio lógico complexo, modelagem financeira e programação de sistemas de alto nível.
 
-Claude Sonnet 4.6: O padrão corporativo mais equilibrado, ideal para grandes volumes de código e suporte inteligente.
+- **Claude Sonnet 4.6:** O padrão corporativo mais equilibrado, ideal para grandes volumes de código e suporte inteligente.
 
-Claude Haiku 4.5: Otimizado para velocidade máxima, extração de dados em tempo real e baixo custo.
+- **Claude Haiku 4.5:** Otimizado para velocidade máxima, extração de dados em tempo real e baixo custo.
 
 3. **Ferramentas Práticas de Automação**
 
 Produtos segmentados por perfis de uso:
 
-Claude Code (Para Engenheiros): Opera via terminal (CLI) e IDEs. Consegue navegar por diretórios e editar múltiplos arquivos simultaneamente, executando testes de forma autônoma.
+- **Claude Code (Para Engenheiros):** Opera via terminal (CLI) e IDEs. Consegue navegar por diretórios e editar múltiplos arquivos simultaneamente, executando testes de forma autônoma.
 
-Claude Cowork (Conhecimento): Aplicativo desktop seguro (sandbox) para profissionais não técnicos. Automatiza a organização de arquivos, compilação de pesquisas e redação de relatórios.
+- **Claude Cowork (Conhecimento):** Aplicativo desktop seguro (sandbox) para profissionais não técnicos. Automatiza a organização de arquivos, compilação de pesquisas e redação de relatórios.
 
-Claude Design (Fluxos Criativos): Cria protótipos e landing pages conectando-se diretamente ao Design System da marca, com exportação nativa para ferramentas como o Canva.
+- **Claude Design (Fluxos Criativos):** Cria protótipos e landing pages conectando-se diretamente ao Design System da marca, com exportação nativa para ferramentas como o Canva.
 
 4. **Infraestrutura de Conectividade**
 
-Model Context Protocol (MCP): A base técnica que permite ao Claude deixar de ser isolado.
+- **Model Context Protocol (MCP):** A base técnica que permite ao Claude deixar de ser isolado.
 
-Integração: Conecta a IA em tempo real a plataformas como GitHub, Jira, Slack, Google Drive e Figma, garantindo um fluxo de trabalho totalmente integrado.
+- **Integração:** Conecta a IA em tempo real a plataformas como GitHub, Jira, Slack, Google Drive e Figma, garantindo um fluxo de trabalho totalmente integrado.
 
-Por que essa estrutura é melhor?
+**Por que essa estrutura é melhor?**
 Bullet points: Criam respiro visual e facilitam a leitura rápida.
 
-Hierarquia de Títulos (###): No GitHub, isso gera um índice lateral automático.
+- **Hierarquia de Títulos (###):** No GitHub, isso gera um índice lateral automático.
 
-Negrito Estratégico: Destaca apenas os nomes das ferramentas e conceitos fundamentais, sem poluir a visão.
+- **Negrito Estratégico:** Destaca apenas os nomes das ferramentas e conceitos fundamentais, sem poluir a visão.
 
 
 ## Glossário com os Principais Conceitos Aprendidos
 - **Ciclo Agêntico (Agentic Loop):** O ciclo de execução autônomo subjacente ao Claude Code, composto por três etapas interativas: reunir contexto varrendo arquivos, tomar ações diretas como modificar códigos e verificar resultados lendo saídas de erro para se corrigir iterativamente.
 
-- CLAUDE.md: Um arquivo persistente escrito em formato Markdown salvo na raiz do projeto que atua como o manual mestre para a IA. Ele ensina o sistema sobre regras da equipe, estilos de formatação e limitações para que não seja preciso lembrá-lo a cada sessão.
+- **CLAUDE.md:** Um arquivo persistente escrito em formato Markdown salvo na raiz do projeto que atua como o manual mestre para a IA. Ele ensina o sistema sobre regras da equipe, estilos de formatação e limitações para que não seja preciso lembrá-lo a cada sessão.
 
 - **Claude Code:** Um assistente de IA baseado em terminal e sem interface gráfica que opera com permissões de desenvolvedor para orquestrar rotinas de engenharia de software complexas.
 
