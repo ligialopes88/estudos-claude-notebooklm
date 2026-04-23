@@ -62,7 +62,8 @@ Produtos segmentados por perfis de uso:
 - **Integração:** Conecta a IA em tempo real a plataformas como GitHub, Jira, Slack, Google Drive e Figma, garantindo um fluxo de trabalho totalmente integrado.
 
 **Por que essa estrutura é melhor?**
-Bullet points: Criam respiro visual e facilitam a leitura rápida.
+
+- **Bullet points:** Criam respiro visual e facilitam a leitura rápida.
 
 - **Hierarquia de Títulos (###):** No GitHub, isso gera um índice lateral automático.
 
