@@ -30,12 +30,12 @@ Lição: Isso demonstrou a importância de fornecer documentos específicos de n
 
 
 ## 📝 Resumo Estruturado: O Ecossistema de IA Agêntica do Claude (2026)
-1. A Transição para a Inteligência Artificial Agêntica
+- A Transição para a Inteligência Artificial Agêntica
 O cenário atual da Anthropic marca uma mudança estrutural: a evolução de simples chatbots para forças de trabalho autônomas.
 
 Capacidades principais: Orquestração de fluxos em múltiplas etapas, uso ativo de programas de computador, tomada de decisão contextual e autoverificação de resultados.
 
-2. O Motor de Raciocínio: Família de Modelos Claude 4
+- O Motor de Raciocínio: Família de Modelos Claude 4
 A arquitetura é dividida em três níveis para equilibrar inteligência, custo e velocidade:
 
 Claude Opus 4.7: O modelo de ponta para raciocínio lógico complexo, modelagem financeira e programação de sistemas de alto nível.
@@ -44,7 +44,7 @@ Claude Sonnet 4.6: O padrão corporativo mais equilibrado, ideal para grandes vo
 
 Claude Haiku 4.5: Otimizado para velocidade máxima, extração de dados em tempo real e baixo custo.
 
-3. Ferramentas Práticas de Automação
+- Ferramentas Práticas de Automação
 Produtos segmentados por perfis de uso:
 
 Claude Code (Para Engenheiros): Opera via terminal (CLI) e IDEs. Consegue navegar por diretórios e editar múltiplos arquivos simultaneamente, executando testes de forma autônoma.
@@ -53,7 +53,7 @@ Claude Cowork (Conhecimento): Aplicativo desktop seguro (sandbox) para profissio
 
 Claude Design (Fluxos Criativos): Cria protótipos e landing pages conectando-se diretamente ao Design System da marca, com exportação nativa para ferramentas como o Canva.
 
-4. Infraestrutura de Conectividade
+- Infraestrutura de Conectividade
 Model Context Protocol (MCP): A base técnica que permite ao Claude deixar de ser isolado.
 
 Integração: Conecta a IA em tempo real a plataformas como GitHub, Jira, Slack, Google Drive e Figma, garantindo um fluxo de trabalho totalmente integrado.
