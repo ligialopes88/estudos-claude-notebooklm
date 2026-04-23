@@ -71,3 +71,15 @@ Model Context Protocol (MCP): O padrão universal de código aberto que faz uma 
 Inteligência Artificial Constitucional (Constitutional AI): Uma abordagem proprietária de treinamento para alinhamento onde o modelo julga as suas próprias respostas não através de programadores humanos, mas sendo regido por uma longa "Constituição" orientadora baseada nos Direitos Humanos
 .
 Arquitetura Multiagente / Subagentes: Uma técnica organizacional na qual uma tarefa muito complexa para ser gerida por apenas um processo da inteligência artificial é paralisada e dividida entre vários "subagentes" operando ao mesmo tempo, antes que um líder consolide todo o processamento em segundos
+
+
+## ⚡ Prompts Reutilizáveis para Revisão
+Aqui estão os comandos que preparei para serem usados em futuras sessões de estudo ou atualizações deste caderno temático:
+
+Para Resumo Executivo: "Atue como um tutor técnico. Com base nestas fontes, resuma as 3 atualizações mais importantes do Claude nos últimos meses e como elas impactam um fluxo de trabalho de design."
+
+Para Teste de Conhecimento: "Gere 5 perguntas de múltipla escolha sobre as diferenças técnicas entre o Claude Projects e o Claude Code para testar meu nível de compreensão."
+
+Para Aplicação Prática: "Crie um passo a passo de como integrar as capacidades de visão do Claude 3.5 Sonnet na análise de acessibilidade de um protótipo de UX/UI."
+
+Para Atualização de Contexto: "Analise estas novas fontes que acabei de subir e me diga: o que mudou ou foi descontinuado em relação ao que estudamos anteriormente sobre o ecossistema Anthropic?"
